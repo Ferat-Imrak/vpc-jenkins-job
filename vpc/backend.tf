@@ -1,6 +1,6 @@
 terraform {
 	backend "s3" {
-	bucket = "backend-tfstate-ferat"
+	bucket = "backend-class-ferat"
 	key = "path/to/my/key"
 	region = "us-east-1"
 	}
