@@ -26,7 +26,7 @@ a : i
 
 d : i
 	terraform destroy \
-		-var-file=envs/$(ENVIRONMENT).tfvars
+		-var-file=envs/$(ENVIRONMENT).tfvars --auto-approve
 
 v : i
 	terraform validate
